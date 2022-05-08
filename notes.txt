@@ -1,0 +1,149 @@
+SDK Manager 
+  SDK Tools
+    Google Play Licencing Library
+
+
+
+RTL:
+  https://stackoverflow.com/a/52381831/908464
+
+  android\app\src\main\AndroidManifest.xml
+    android:supportsRtl="true"
+
+
+Routing, Navigation
+
+  https://reactnavigation.org/docs/getting-started/
+
+
+  yarn add @react-navigation/native
+  yarn add react-native-screens react-native-safe-area-context
+  yarn add @react-navigation/native-stack
+
+  stack
+  tab
+  drawer
+
+
+CSS Flex
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  https://flexboxfroggy.com/
+
+
+
+adb 
+  adb devices
+
+  # restart 
+  adb kill-server 
+
+
+  adb logcat *:S ReactNative:V ReactNativeJS:V
+
+Detect Platform
+  import {Platform} from 'react-native';
+  Platform.os === 'android'
+
+  ya
+
+  Comp.android.tsx
+  Comp.ios.tsx
+
+Component Package
+  https://nativebase.io/
+    https://docs.nativebase.io/install-rn
+    
+    yarn add native-base react-native-svg react-native-safe-area-context
+
+  https://reactnativeelements.com/
+
+
+ICON
+  https://github.com/oblador/react-native-vector-icons  
+  yarn add react-native-vector-icons
+
+
+APP icons
+https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html
+
+Rename app
+  https://www.npmjs.com/package/react-native-rename
+
+  npx react-native-rename "دارو خانه سبز" -b ir.fad.rn.session10
+  npx react-native-rename "GreenDrugStore" -b ir.fad.rn.session10
+
+
+
+Splash Screen
+  RN -> 
+  https://www.npmjs.com/package/react-native-splash-screen
+
+  https://blog.logrocket.com/building-a-splash-screen-in-react-native/
+
+
+NetInfo
+  yarn add @react-native-community/netinfo
+  https://github.com/react-native-netinfo/react-native-netinfo
+
+
+AsyncStorage
+
+  https://github.com/react-native-async-storage/async-storage
+
+
+AppState
+  https://reactnative.dev/docs/appstate
+
+
+
+GeoLocation
+  https://github.com/react-native-geolocation/react-native-geolocation
+  yarn add @react-native-community/geolocation
+
+ 
+MAPs
+  https://github.com/react-native-maps/react-native-maps
+
+  yarn add react-native-maps -E
+
+  https://github.com/react-native-maps/react-native-maps/blob/master/docs/installation.md
+
+
+
+Payment
+  In-App Purchase
+    AppStore, Google Play, CafeBazar, Sibche
+      SDK
+  Server, 
+    Pardakhat
+
+
+Deep link
+
+
+Camera
+  https://github.com/mrousavy/react-native-vision-camera
+  yarn add react-native-vision-camera
+
+Embeded DB
+  sqlite
+    https://github.com/andpor/react-native-sqlite-storage
+  realm js
+    https://docs.mongodb.com/realm/sdk/react-native/install/
+    yarn add realm
+
+Multi Dex
+
+
+tips:
+  Camera -> install -> vpn ❌ -> fail
+  dasti package.json
+  vpn!
+  cd android
+  .\gradlew clean
+
+
+
+Bestt practice
+  https://alexkondov.com/tao-of-react/
+  https://github.com/alan2207/bulletproof-react
